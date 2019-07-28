@@ -1,0 +1,92 @@
+body {
+    background-image: url("../images/avengers-infinity-war_1511962981604.pnp.jpg");
+}
+h1 {
+    font-family: 'Notable', serif;
+    font-size: 3.75em;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Anton', serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: red;
+}
+
+h4 {
+    font-family: 'Anton', cursive;
+    font-size: 2em;
+    color: #002d3c;
+}
+
+p {
+    font-family: 'Acme', cursive;
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: -55px;
+} 
+
+#guessedLetters {
+    color: red;
+}
+
+#pressPlay {
+    color: #002d3c;
+    margin-top: 0;
+    margin-bottom: -40px;
+}
+
+#answerWord {
+    letter-spacing: .25em;
+    margin-top: 0;
+    color: red;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+.middle {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+
+#giphy-embed {
+    width: 100%;
+    height: 100%;
+}
+
+.side {
+    width: 20%;
+    padding: 20px;
+}
+.left {
+    order: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right{
+    order: 3;
+    overflow-wrap: break-word;
+}
+
+
+
+
